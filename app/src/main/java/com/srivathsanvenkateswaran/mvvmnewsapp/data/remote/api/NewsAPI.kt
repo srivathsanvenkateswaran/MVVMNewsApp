@@ -1,6 +1,6 @@
 package com.srivathsanvenkateswaran.mvvmnewsapp.data.remote.api
 
-import com.srivathsanvenkateswaran.mvvmnewsapp.data.remote.response.NewsResponse
+import com.srivathsanvenkateswaran.mvvmnewsapp.data.remote.models.NewsResponse
 import com.srivathsanvenkateswaran.mvvmnewsapp.util.Constants.Companion.API_KEY
 import retrofit2.Response
 import retrofit2.http.GET

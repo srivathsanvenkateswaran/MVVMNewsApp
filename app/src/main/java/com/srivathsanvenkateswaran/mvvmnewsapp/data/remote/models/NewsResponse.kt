@@ -1,4 +1,4 @@
-package com.srivathsanvenkateswaran.mvvmnewsapp.data.remote.response
+package com.srivathsanvenkateswaran.mvvmnewsapp.data.remote.models
 
 data class NewsResponse(
     val articles: List<Article>,

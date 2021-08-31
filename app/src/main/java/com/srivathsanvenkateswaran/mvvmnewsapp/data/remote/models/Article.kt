@@ -1,4 +1,4 @@
-package com.srivathsanvenkateswaran.mvvmnewsapp.data.remote.response
+package com.srivathsanvenkateswaran.mvvmnewsapp.data.remote.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
