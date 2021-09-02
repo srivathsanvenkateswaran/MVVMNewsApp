@@ -10,4 +10,6 @@ class NewsRepository(
     suspend fun getCryptoNews(newsTopic: String, pageNumber: Int) =
         RetrofitInstance.api.getCryptoNews(newsTopic, pageNumber)
 
+    suspend fun searchNews(searchQuery: String, pageNumber: Int) =
+        RetrofitInstance.api.searchNews(searchQuery, pageNumber)
 }
